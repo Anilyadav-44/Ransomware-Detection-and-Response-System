@@ -1,0 +1,15 @@
+rdrs:
+  name: "Ransomware Detection and Response System"
+  version: "0.1.0"
+
+monitoring:
+  watch_directory: "./data"
+  scan_interval: 2
+
+detection:
+  entropy_threshold: 4.0
+  enable_entropy_detector: true
+
+logging:
+  log_directory: "./logs"
+  log_level: "INFO"

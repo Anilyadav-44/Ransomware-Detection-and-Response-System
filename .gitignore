@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.env
+*_backup.py
+*_before_*.py
+*_upgrade_test.bin
+make_zip.py
